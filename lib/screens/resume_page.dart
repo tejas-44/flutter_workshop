@@ -35,7 +35,7 @@ class ResumeBuilder extends StatelessWidget {
                    padding: EdgeInsets.only(top: 20),
                    child: Text(
                       "Tejas Shelke",
-                      style: TextStyle(fontSize: 30),
+                      style: TextStyle(fontSize: 50),
                     ),
                  ),
                   Text(

@@ -7,6 +7,7 @@ class ListWidget extends StatelessWidget {
 
   const ListWidget(
   {
+
     required this.name,required this.email,required this.desc
 }
       );
@@ -24,7 +25,7 @@ class ListWidget extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text(name),
+              Text(name,style: TextStyle(fontSize: 20),),
               Text(email),
               Text(desc),
             ],

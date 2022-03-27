@@ -13,7 +13,7 @@ class _ResumeListState extends State<ResumeList> {
       home: Scaffold(
         body: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 30),
             child: Column(
               children: const [
                 ListWidget(name: "Tejas Shelke",email: "tej@gmail.com",desc: "T.E. Student"),
